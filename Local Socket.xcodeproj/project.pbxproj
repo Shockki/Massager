@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D40E36B62ECA5369963E3D5 /* Pods_Local_Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59636D852D217E4BCFC6A34B /* Pods_Local_Socket.framework */; };
+		FA03FEAD207286C100403B54 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03FEAC207286C100403B54 /* ChatVC.swift */; };
+		FA03FEAF2072908C00403B54 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03FEAE2072908C00403B54 /* DesignableTextField.swift */; };
+		FA03FEB120729D1000403B54 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03FEB020729D1000403B54 /* DesignableImageView.swift */; };
+		FA03FEB42072A05300403B54 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03FEB32072A05300403B54 /* ChatTableViewCell.swift */; };
+		FA03FEB62072A4E000403B54 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03FEB52072A4E000403B54 /* DesignableLabel.swift */; };
 		FA7CEA582065421200791189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CEA572065421200791189 /* AppDelegate.swift */; };
 		FA7CEA5A2065421200791189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CEA592065421200791189 /* ViewController.swift */; };
 		FA7CEA5D2065421200791189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7CEA5B2065421200791189 /* Main.storyboard */; };
@@ -15,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59636D852D217E4BCFC6A34B /* Pods_Local_Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Local_Socket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D78A2504B1B1D03F8477911 /* Pods-Local Socket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Local Socket.release.xcconfig"; path = "Pods/Target Support Files/Pods-Local Socket/Pods-Local Socket.release.xcconfig"; sourceTree = "<group>"; };
+		FA03FEAC207286C100403B54 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		FA03FEAE2072908C00403B54 /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		FA03FEB020729D1000403B54 /* DesignableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		FA03FEB32072A05300403B54 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		FA03FEB52072A4E000403B54 /* DesignableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
 		FA7CEA542065421200791189 /* Local Socket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Local Socket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7CEA572065421200791189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA7CEA592065421200791189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,7 @@
 		FA7CEA5E2065421200791189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA7CEA612065421200791189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7CEA632065421200791189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACDDEA12E071EAC9893F1E3 /* Pods-Local Socket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Local Socket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Local Socket/Pods-Local Socket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D40E36B62ECA5369963E3D5 /* Pods_Local_Socket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67CA5D24B79D8AC4E88760FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59636D852D217E4BCFC6A34B /* Pods_Local_Socket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA03FEB220729D1B00403B54 /* Designable */ = {
+			isa = PBXGroup;
+			children = (
+				FA03FEAE2072908C00403B54 /* DesignableTextField.swift */,
+				FA03FEB020729D1000403B54 /* DesignableImageView.swift */,
+				FA03FEB52072A4E000403B54 /* DesignableLabel.swift */,
+			);
+			path = Designable;
+			sourceTree = "<group>";
+		};
 		FA7CEA4B2065421200791189 = {
 			isa = PBXGroup;
 			children = (
 				FA7CEA562065421200791189 /* Local Socket */,
 				FA7CEA552065421200791189 /* Products */,
+				FFB84A5385BB73A3BAB26B56 /* Pods */,
+				67CA5D24B79D8AC4E88760FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +90,25 @@
 			isa = PBXGroup;
 			children = (
 				FA7CEA572065421200791189 /* AppDelegate.swift */,
+				FA03FEB220729D1B00403B54 /* Designable */,
+				FA03FEB32072A05300403B54 /* ChatTableViewCell.swift */,
 				FA7CEA592065421200791189 /* ViewController.swift */,
+				FA03FEAC207286C100403B54 /* ChatVC.swift */,
 				FA7CEA5B2065421200791189 /* Main.storyboard */,
 				FA7CEA5E2065421200791189 /* Assets.xcassets */,
 				FA7CEA602065421200791189 /* LaunchScreen.storyboard */,
 				FA7CEA632065421200791189 /* Info.plist */,
 			);
 			path = "Local Socket";
+			sourceTree = "<group>";
+		};
+		FFB84A5385BB73A3BAB26B56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FACDDEA12E071EAC9893F1E3 /* Pods-Local Socket.debug.xcconfig */,
+				5D78A2504B1B1D03F8477911 /* Pods-Local Socket.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA7CEA662065421200791189 /* Build configuration list for PBXNativeTarget "Local Socket" */;
 			buildPhases = (
+				614F6C9342FE03853DB67349 /* [CP] Check Pods Manifest.lock */,
 				FA7CEA502065421200791189 /* Sources */,
 				FA7CEA512065421200791189 /* Frameworks */,
 				FA7CEA522065421200791189 /* Resources */,
+				8C0540CE95E3A61A907A74D2 /* [CP] Embed Pods Frameworks */,
+				F5CB1AB839A731FD6D35DDAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +181,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		614F6C9342FE03853DB67349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Local Socket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C0540CE95E3A61A907A74D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Local Socket/Pods-Local Socket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Local Socket/Pods-Local Socket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5CB1AB839A731FD6D35DDAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Local Socket/Pods-Local Socket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA7CEA502065421200791189 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA03FEAD207286C100403B54 /* ChatVC.swift in Sources */,
+				FA03FEB120729D1000403B54 /* DesignableImageView.swift in Sources */,
 				FA7CEA5A2065421200791189 /* ViewController.swift in Sources */,
+				FA03FEB42072A05300403B54 /* ChatTableViewCell.swift in Sources */,
 				FA7CEA582065421200791189 /* AppDelegate.swift in Sources */,
+				FA03FEB62072A4E000403B54 /* DesignableLabel.swift in Sources */,
+				FA03FEAF2072908C00403B54 /* DesignableTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +383,7 @@
 		};
 		FA7CEA672065421200791189 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FACDDEA12E071EAC9893F1E3 /* Pods-Local Socket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +398,7 @@
 		};
 		FA7CEA682065421200791189 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D78A2504B1B1D03F8477911 /* Pods-Local Socket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
