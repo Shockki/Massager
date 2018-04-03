@@ -78,7 +78,7 @@ extension ChatVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = chatTableView.dequeueReusableCell(withIdentifier: "cellTwo", for: indexPath) as! ChatTableViewCell
-        cell.labelText.text = messegesArray[indexPath.row]
+        cell.viewText.text = messegesArray[indexPath.row]
         
 
         

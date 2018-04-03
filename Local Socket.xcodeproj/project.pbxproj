@@ -18,6 +18,7 @@
 		FA7CEA5D2065421200791189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7CEA5B2065421200791189 /* Main.storyboard */; };
 		FA7CEA5F2065421200791189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7CEA5E2065421200791189 /* Assets.xcassets */; };
 		FA7CEA622065421200791189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7CEA602065421200791189 /* LaunchScreen.storyboard */; };
+		FAB4F84E2072EA440042D959 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4F84D2072EA440042D959 /* DesignableTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		FA7CEA5E2065421200791189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA7CEA612065421200791189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7CEA632065421200791189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB4F84D2072EA440042D959 /* DesignableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
 		FACDDEA12E071EAC9893F1E3 /* Pods-Local Socket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Local Socket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Local Socket/Pods-Local Socket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 				FA03FEAE2072908C00403B54 /* DesignableTextField.swift */,
 				FA03FEB020729D1000403B54 /* DesignableImageView.swift */,
 				FA03FEB52072A4E000403B54 /* DesignableLabel.swift */,
+				FAB4F84D2072EA440042D959 /* DesignableTextView.swift */,
 			);
 			path = Designable;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA03FEAD207286C100403B54 /* ChatVC.swift in Sources */,
+				FAB4F84E2072EA440042D959 /* DesignableTextView.swift in Sources */,
 				FA03FEB120729D1000403B54 /* DesignableImageView.swift in Sources */,
 				FA7CEA5A2065421200791189 /* ViewController.swift in Sources */,
 				FA03FEB42072A05300403B54 /* ChatTableViewCell.swift in Sources */,

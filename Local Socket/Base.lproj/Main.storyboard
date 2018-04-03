@@ -59,34 +59,32 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text text text text text" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ClQ-6X-Rmc" customClass="DesignableLabel" customModule="Local_Socket" customModuleProvider="target">
-                                                    <rect key="frame" x="50" y="8" width="250" height="49.5"/>
-                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.80399186643835618" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" editable="NO" text="Lorem ipsum dolor sit er elit" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUU-gy-Cct" customClass="DesignableTextView" customModule="Local_Socket" customModuleProvider="target">
+                                                    <rect key="frame" x="50" y="8" width="242" height="49"/>
+                                                    <color key="backgroundColor" white="1" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="250" id="NSb-WX-MR4"/>
-                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="oaW-5m-AKD"/>
+                                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="Fk4-6F-q4b"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="UFv-dG-a5h"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="corner">
                                                             <real key="value" value="12"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
-                                                </label>
+                                                </textView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="Xby-NU-sZM" secondAttribute="bottom" constant="8" id="3la-Ll-A2d"/>
-                                                <constraint firstAttribute="bottom" secondItem="ClQ-6X-Rmc" secondAttribute="bottom" constant="8" id="jqK-sZ-1jG"/>
-                                                <constraint firstItem="ClQ-6X-Rmc" firstAttribute="leading" secondItem="Xby-NU-sZM" secondAttribute="trailing" constant="10" id="kLZ-W7-Wzf"/>
+                                                <constraint firstAttribute="bottom" secondItem="AUU-gy-Cct" secondAttribute="bottom" constant="8" id="MeG-mg-Kp2"/>
+                                                <constraint firstItem="AUU-gy-Cct" firstAttribute="leading" secondItem="Xby-NU-sZM" secondAttribute="trailing" constant="10" id="VJb-EK-oBp"/>
+                                                <constraint firstItem="AUU-gy-Cct" firstAttribute="top" secondItem="TWZ-hE-lCi" secondAttribute="top" constant="8" id="s3q-Wh-UNT"/>
                                                 <constraint firstItem="Xby-NU-sZM" firstAttribute="leading" secondItem="TWZ-hE-lCi" secondAttribute="leading" constant="10" id="sPf-6D-EQ9"/>
-                                                <constraint firstItem="ClQ-6X-Rmc" firstAttribute="top" secondItem="TWZ-hE-lCi" secondAttribute="top" constant="8" id="y6s-RP-Pxl"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <outlet property="labelText" destination="ClQ-6X-Rmc" id="FUE-6f-hIt"/>
                                             <outlet property="photo" destination="Xby-NU-sZM" id="UAt-wU-mcG"/>
                                         </connections>
                                     </tableViewCell>
@@ -97,22 +95,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="65.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text text text text text" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwl-cD-wuZ" customClass="DesignableLabel" customModule="Local_Socket" customModuleProvider="target">
-                                                    <rect key="frame" x="75" y="8" width="250" height="49.5"/>
-                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.80399186639999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="250" id="OM0-Vi-4yp"/>
-                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="XMi-Le-Nsr"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="corner">
-                                                            <real key="value" value="12"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="92243717259d4de0003370421b638bb4--beautiful-pictures-beautiful-cats" translatesAutoresizingMaskIntoConstraints="NO" id="vxJ-c6-xNS" customClass="DesignableImageView" customModule="Local_Socket" customModuleProvider="target">
                                                     <rect key="frame" x="335" y="27" width="30" height="30"/>
                                                     <constraints>
@@ -125,19 +107,34 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" editable="NO" text="Lorem ipsum dolor sit er elit" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooc-Y0-r8E" customClass="DesignableTextView" customModule="Local_Socket" customModuleProvider="target">
+                                                    <rect key="frame" x="83" y="8" width="242" height="49"/>
+                                                    <color key="backgroundColor" white="1" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="LdK-G6-pul"/>
+                                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="zYQ-4V-WfY"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="corner">
+                                                            <real key="value" value="12"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="vxJ-c6-xNS" secondAttribute="trailing" constant="10" id="2Ld-aQ-we4"/>
                                                 <constraint firstAttribute="bottom" secondItem="vxJ-c6-xNS" secondAttribute="bottom" constant="8" id="BC7-hG-9Xh"/>
-                                                <constraint firstAttribute="bottom" secondItem="gwl-cD-wuZ" secondAttribute="bottom" constant="8" id="GMa-L2-yXN"/>
-                                                <constraint firstItem="vxJ-c6-xNS" firstAttribute="leading" secondItem="gwl-cD-wuZ" secondAttribute="trailing" constant="10" id="cPk-gE-JgO"/>
-                                                <constraint firstItem="gwl-cD-wuZ" firstAttribute="top" secondItem="v5V-Q2-ldC" secondAttribute="top" constant="8" id="fUV-Ot-Quw"/>
+                                                <constraint firstAttribute="bottom" secondItem="ooc-Y0-r8E" secondAttribute="bottom" constant="8" id="WCI-ig-N4b"/>
+                                                <constraint firstItem="vxJ-c6-xNS" firstAttribute="leading" secondItem="ooc-Y0-r8E" secondAttribute="trailing" constant="10" id="XId-Be-ueL"/>
+                                                <constraint firstItem="ooc-Y0-r8E" firstAttribute="top" secondItem="v5V-Q2-ldC" secondAttribute="top" constant="8" id="bcH-nZ-HRS"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <outlet property="labelText" destination="gwl-cD-wuZ" id="lF1-Lc-yBw"/>
                                             <outlet property="photo" destination="vxJ-c6-xNS" id="Y6g-Vf-3TC"/>
+                                            <outlet property="viewText" destination="ooc-Y0-r8E" id="Tyk-XD-14W"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

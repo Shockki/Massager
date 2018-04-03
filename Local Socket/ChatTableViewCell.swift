@@ -10,6 +10,7 @@ import UIKit
 
 class ChatTableViewCell: UITableViewCell {
    
+    @IBOutlet weak var viewText: UITextView!
     @IBOutlet weak var photo: DesignableImageView!    
     @IBOutlet weak var labelText: UILabel!
     
